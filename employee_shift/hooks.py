@@ -227,3 +227,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+app_include_js = "/assets/employee_shift/js/employee_list.js"
+
+scheduler_events = {
+	"cron": {
+		"30 0 * * *": [
+			"employee_shift.employee_shift.doctype.employee_shift.employee_shift.generate_and_send_report_task"
+		]
+	}
+}
