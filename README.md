@@ -1,6 +1,6 @@
 ### Employee Shift Management
 
-Employee shift management
+Employee shift management is the system that is managing shifting for the employees. It designed in such a way that admin can create shift for more than one employee at once. It also has a report page for the employee shifts which it can be filtered with date and the report can be export into csv and it can also be send to an email. Finally, it has a scheduler which sends report for the shifts for the particular day to a specified email address at every 00:30.
 
 ### Installation
 
